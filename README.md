@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust when dealing with raw pointers and vectors. Modifying a vector through a raw pointer without careful handling can lead to undefined behavior, as shown in the `bug.rs` file.  The `bugSolution.rs` file offers a safer alternative using Rust's built-in methods to avoid these issues.
